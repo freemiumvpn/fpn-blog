@@ -21,3 +21,24 @@
 
 @media only screen and (min-width: 1500px) {
 }
+
+.home-section--main {
+    margin: 0px auto;
+    background-color: #22C4D6;
+    padding: 2em 10px;
+}
+
+.home-section-tittle {
+    font-size: 40px;
+    padding: 20px;
+    color: white;
+}
+
+
+.home-logo {
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 1px 2px #d8d0d0;
+    box-shadow: 0px 11.4128px 35.1163px rgba(0,0,0,0.3);
+}
