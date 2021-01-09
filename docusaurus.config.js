@@ -59,6 +59,10 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Freemiumpn. Powered by Docusaurus.`,
     },
+    googleAnalytics: {
+        trackingID: 'G-HM0S8EHB0H',
+        anonymizeIP: true,
+      },
   },
   presets: [
     [

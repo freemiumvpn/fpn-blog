@@ -4,7 +4,7 @@ title: Hello World
 description: Hello world
 image: "https://miro.medium.com/max/3840/1*U-R58ahr5dtAvtSLGK2wXg.png"
 author: Julian Tellez
-author_title: Engineer
+author_title: Software Engineer
 author_url: https://juliantellez.com/
 author_image_url: https://avatars3.githubusercontent.com/u/4896851?s=460&u=dbdb682f65762bc117c0b6b330a6942798d80205&v=4
 tags: [Info]
