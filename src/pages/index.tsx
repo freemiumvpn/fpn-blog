@@ -6,53 +6,6 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
-const features = [
-  {
-    title: 'Secure and Private',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
-    description: (
-      <>
-        Freemiumpn provides secure tunnels for your data.
-      </>
-    ),
-  },
-  {
-    title: 'Open Source',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
-    description: (
-      <>
-        Freemiumpn is an open source project built on other open source technologies.
-        We aim to be transparent and to give back to the community!
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
-  },
-];
-
-function Feature({imageUrl, title, description}) {
-  const imgUrl = useBaseUrl(imageUrl);
-  return (
-    <div className={clsx('col col--4', styles.feature)}>
-      {imgUrl && (
-        <div className="text--center">
-          <img className={styles.featureImage} src={imgUrl} alt={title} />
-        </div>
-      )}
-      <h3>{title}</h3>
-      <p>{description}</p>
-    </div>
-  );
-}
-
 const Logo = () => (
     <svg viewBox="0 0 300 300" className={styles.logo}>
     <defs />
@@ -77,7 +30,9 @@ function Home() {
       description="Freemiumpn Blog">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
-          <Logo />
+          <Link to='https://freemiumpn.com/'>
+              <Logo />
+          </Link>
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>

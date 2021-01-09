@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Freemiumpn',
   tagline: 'A Freemium VPN you will enjoy 🚀 ',
-  url: 'https://freemiumpn.com',
+  url: 'https://blog.freemiumpn.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -23,7 +23,7 @@ module.exports = {
           label: 'Docs',
           position: 'right',
         },
-        {to: 'posts', label: 'Posts', position: 'right'},
+        {to: 'posts', label: 'Blog', position: 'right'},
         {
           href: 'https://github.com/freemiumvpn',
           label: 'GitHub',
@@ -38,29 +38,8 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
+              label: 'Get Started',
               to: 'docs/',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
             },
           ],
         },
@@ -69,16 +48,16 @@ module.exports = {
           items: [
             {
               label: 'Blog',
-              to: 'blog',
+              to: 'posts',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/freemiumpn',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Freemiumpn. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Freemiumpn. Powered by Docusaurus.`,
     },
   },
   presets: [
@@ -87,18 +66,13 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+          editUrl: 'https://github.com/freemiumvpn/fpn-blog/edit/main/',
         },
-        // docs: false,
         blog: {
             path: './blog',
-            routeBasePath: '/posts', // Set this value to '/'.
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            routeBasePath: '/posts',
+            showReadingTime: true,
+            editUrl: 'https://github.com/freemiumvpn/fpn-blog/edit/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
