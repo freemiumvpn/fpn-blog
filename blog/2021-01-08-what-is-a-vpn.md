@@ -3,7 +3,7 @@ slug: what-is-a-vpn
 title: What is a VPN
 description: VPN stands for Virtual Private Network...
 author: Julian Tellez
-author_title: Engineer
+author_title: Software Engineer
 author_url: https://juliantellez.com/
 author_image_url: https://avatars3.githubusercontent.com/u/4896851?s=460&u=dbdb682f65762bc117c0b6b330a6942798d80205&v=4
 tags: [VPN]
