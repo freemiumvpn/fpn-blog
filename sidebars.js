@@ -7,6 +7,17 @@ module.exports = {
     },
     {
         type: 'category',
+        label: 'Developer',
+        items: [
+            {
+                type: 'category',
+                label: 'How To',
+                items: ['developer/how-to/web/2021-01-10-runtime-env-vars'],
+            },
+        ],
+    },
+    {
+        type: 'category',
         label: 'Tutorials',
         items: [],
     },
