@@ -12,7 +12,7 @@ tags: ['webpack', 'docker', 'fe', 'web']
 
 ## Introduction
 
-If you are looking for the BE solution and a description of the problem [See part 2](/docs/developer/how-to/web/runtime-configs-with-webpack-and-docker-v2).
+If you are looking for the BE solution [see part 2](/docs/developer/how-to/web/runtime-configs-with-webpack-and-docker-v2).
 
 Following the [12 Factor apps](https://12factor.net/) methodology, we would like to configure anything that may vary between deploys separately. The goal si to be able to build one docker image that can be dynamically configured depending on the environment, such as dev, staging, prod, etc...
 

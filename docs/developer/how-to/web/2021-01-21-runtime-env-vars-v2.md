@@ -12,7 +12,7 @@ tags: ['webpack', 'docker', 'be', 'web', 'nodejs']
 
 ## Introduction
 
-If you are looking for the FE solution and a description of the problem [See part 1](/docs/developer/how-to/web/runtime-configs-with-webpack-and-docker).
+If you are looking for the FE solution and a description of the problem [see part 1](/docs/developer/how-to/web/runtime-configs-with-webpack-and-docker).
 
 Configurations should be provided at runtime, and there should be a clear separation of configuration at code, as prescribed by the [12 factor app guideline](https://12factor.net/).
 
