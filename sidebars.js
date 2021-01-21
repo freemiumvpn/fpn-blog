@@ -12,7 +12,10 @@ module.exports = {
             {
                 type: 'category',
                 label: 'How To',
-                items: ['developer/how-to/web/2021-01-10-runtime-env-vars'],
+                items: [
+                    'developer/how-to/web/2021-01-10-runtime-env-vars',
+                    'developer/how-to/web/2021-01-21-runtime-env-vars-v2'
+                ],
             },
         ],
     },
