@@ -17,6 +17,13 @@ module.exports = {
                     'developer/how-to/web/2021-01-21-runtime-env-vars-v2'
                 ],
             },
+            {
+                type: 'category',
+                label: 'Tutorial',
+                items: [
+                    'developer/tutorials/infra/2021-02-10-k8s-cluster-setup-gcp-kops'
+                ],
+            },
         ],
     },
     {
