@@ -28,7 +28,7 @@ we would need:
 - access to a project in gcp
 - a bucket to store the state of the cluster
 
-```
+```bash
 export KOPS_FEATURE_FLAGS=AlphaAllowGCE # to unlock the GCE features
 export CLUSTER_NAME="test.k8s.local"
 export ZONES=$(gcloud config get-value compute/zone)
@@ -48,14 +48,14 @@ kops create cluster \
 
 In order to access gcp you would need to login
 
-```
+```bash
 gcloud auth application-default login
 ```
 
 Alternatively you can create a service account and export the key
 as a variable in the command line
 
-```
+```bash
 gcloud iam service-accounts list
 gcloud iam service-accounts keys create --iam-account <email-from-list> kops-gcp-key.json
 export GOOGLE_CREDENTIALS=$(cat ./kops-gcp-key.json)
@@ -72,7 +72,7 @@ See the gcp project setup for a quick run through with Terraform
 
 Provision a bucket for kops state
 
-```
+```bash
 resource "google_storage_bucket" "kops-state" {
   name          = "${var.namespace}-kops-state"
   location      = $var.location
@@ -83,11 +83,10 @@ resource "google_storage_bucket" "kops-state" {
 }
 ```
 
-## Run
+## Create and Deploy
 
-Now that we have setup access and a state, you may run the command above.
+Now that we have setup access and a state, you may run the command from [the goal](#the-goal) section.
 
-
-```
+:::note
 Finally configure your cluster with: kops update cluster --name test.k8s.local --yes
-```
+:::
