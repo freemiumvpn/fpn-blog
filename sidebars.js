@@ -21,7 +21,7 @@ module.exports = {
                 type: 'category',
                 label: 'Tutorial',
                 items: [
-                    "/developer/tutorials/infra/k8s-cluster-setup-gcp-kops",
+                    'developer/tutorials/infra/2021-02-10-k8s-cluster-setup-gcp-kops'
                 ],
             },
         ],
