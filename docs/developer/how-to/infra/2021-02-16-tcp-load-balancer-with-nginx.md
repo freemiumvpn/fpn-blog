@@ -78,11 +78,11 @@ As a reference:
 
 ## The solution
 Since we have decided not to outsource a load balancer solution, the next logical
-step is to look for open source solutions, enter [Nginx]("https://www.nginx.com/").
+step is to look for open source solutions, enter [Nginx](https://www.nginx.com/).
 Nginx is well known as a high‑performance load balancer, cache, and web server, powering over 40% of the busiest websites.
 
 :::note
-Nginx leverages the [event loop pattern]("https://en.wikipedia.org/wiki/Event_loop") to create a non-blocking I/O
+Nginx leverages the [event loop pattern](https://en.wikipedia.org/wiki/Event_loop) to create a non-blocking I/O
 
 Other examples of event loops in the wild are 
 Chromium: [Libevent](https://libevent.org/),
@@ -266,7 +266,7 @@ Auto scaling the application is delegated to kubernetes, our load balancer
 could become a single point of failure, but such is the case with all load balancers. I will be releasing metrics on the performance of nginx as a load balancer at some point too.
 
 - what's next?
-  - [Tune for performance]("https://www.nginx.com/blog/tuning-nginx/")
+  - [Tune for performance](https://www.nginx.com/blog/tuning-nginx/)
   - [TCP health checks](https://docs.nginx.com/nginx/admin-guide/load-balancer/tcp-health-check/)
   - [Logging](https://www.nginx.com/blog/logging-upstream-nginx-traffic-cdn77/)
 
