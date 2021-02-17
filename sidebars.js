@@ -14,7 +14,8 @@ module.exports = {
                 label: 'How To',
                 items: [
                     'developer/how-to/web/2021-01-10-runtime-env-vars',
-                    'developer/how-to/web/2021-01-21-runtime-env-vars-v2'
+                    'developer/how-to/web/2021-01-21-runtime-env-vars-v2',
+                    "developer/how-to/infra/2021-02-16-tcp-load-balancer-with-nginx"
                 ],
             },
             {
