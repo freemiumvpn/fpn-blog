@@ -40,6 +40,33 @@ You can expect all the usual low-tier features that you may expect from a VPN pr
 - [AES encryption](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) or Military grade encryption (this is a given, it is 2021 after all)
 
 
+## Showcase
+
+<section
+     style={{
+        position: "relative",
+        paddingBottom: "56.25%",
+        height: "0",
+    }}
+>
+<iframe
+    style={{
+        position: "absolute",
+        top: "0",
+        left: "0",
+        width: "100%",
+        height: "100%",
+    }}
+    src="https://www.youtube.com/embed/WA5opJh7ZZ0"
+    frameborder="0"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+    />
+</section>
+
+## What's next?
+
+We have a rough road map and are constantly adding new features. However, they are not set in stone and we will allow the collected feedback to shape the future of FPN.
+
 export const Section = (props) => (
 <section align="center">
   <img
@@ -56,11 +83,3 @@ export const Section = (props) => (
   </p>
 </section>
 )
-
-## Showcase
-
-<iframe width="675" height="380" src="https://www.youtube.com/embed/WA5opJh7ZZ0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## What's next?
-
-We have a rough road map and are constantly adding new features. However, they are not set in stone and we will allow the collected feedback to shape the future of FPN.
