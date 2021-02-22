@@ -29,8 +29,16 @@ module.exports = {
     },
     {
         type: 'category',
-        label: 'Tutorials',
-        items: [],
+        label: 'User',
+        items: [
+            {
+                type: 'category',
+                label: 'How To',
+                items: [
+                    'user/how-to/2021-02-22-install-fpn',
+                ],
+            },
+        ],
     },
     {
         type: 'category',
