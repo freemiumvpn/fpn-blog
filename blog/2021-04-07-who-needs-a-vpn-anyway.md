@@ -15,6 +15,8 @@ When your computer requests data the sender must dispatch it (over the wire) thr
 intermediate nodes until it reaches you. This strategy for dispatching data is commonly referred as the [store and forward model](https://en.wikipedia.org/wiki/Store_and_forward). But how do all these intermediate nodes know where to redirect the data so it gets to you?
 Well, there are a [few rules to this game](https://en.wikipedia.org/wiki/Internet_Protocol).
 
+<!--truncate-->
+
 <Section
     img={{
         src: "https://user-images.githubusercontent.com/4896851/113768422-be703a00-9717-11eb-9e0a-8c36a6d8d607.gif",
@@ -39,7 +41,7 @@ The internet isn't trusted because of its architecture, but because of its users
 Allowing third parties to inspect even just the route of your data can have several ripple effects:
 
 - **Gain commercial advantage**. If a third party or ISP is affiliated to a certain vendor and you purchase from
-  its competitor, said party may slow down ('throtle') or even block access to it.
+  its competitor, said party may slow down ('throttle') or even block access to it.
   Since your overall experience with the vendor was poor, next time you purchase the same or similar item you will consider its competitor.
 
 - **Build a commercial profile**. By analysing your data, a third party may build a profile of your preferences,
